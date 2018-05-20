@@ -1,3 +1,5 @@
+#define WINDOWS
+
 using System;
 using System.Runtime.InteropServices;
 
@@ -9,7 +11,7 @@ namespace GraphicsExample
         private const int GL_STATIC_DRAW = 0x88E4;
         private const int GL_FLOAT = 0x1406;
         private const int GL_TRIANGLES = 0x0004;
-        private const int GL_COLOR_BUFFER_BIT = 0x4000;
+        private const int GL_COLOR_BUFFER_BIT = 0x4000;        
 
 #if WINDOWS
         private const string OPENGL_DLL = "opengl32.dll";

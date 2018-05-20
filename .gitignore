@@ -7,3 +7,5 @@ project.lock.json
 .DS_Store
 *.pyc
 .vscode
+/.vs/NetCore3D/v15/.suo
+.vs
